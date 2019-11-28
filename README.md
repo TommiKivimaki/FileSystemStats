@@ -1,6 +1,6 @@
 # FileSystemStats
 
-Reports total disk size, available size and relative disk usage under ```"/"```.
+Reports total disk size, available disk size and relative disk usage under root directory (```"/"```). Uses ```statvfs``` in C. 
 
 ## Usage
 ``` swift
